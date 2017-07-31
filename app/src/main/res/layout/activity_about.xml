@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.hamadroid.holopallet.about">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView25"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Q なぜこのアプリを作ったのですか？"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="11dp"
+        android:text="A おふざけと暇つぶしです。"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Q 作者のプロフィールは？"
+        android:textSize="17sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView24"
+        android:layout_marginTop="13dp"
+        android:text="14の中学生（中2）趣味はガジェットいじり、アプリ制作、ごちうさ...ですかね。
+大阪の田舎に住んでます。うまれた福岡の元炭鉱の町で、産婦人科を出てすぐに親の運転するクラアア（日産　キューブ）に乗って大阪に来て、大阪→広島→大阪→東京→大阪（いまこ↑こ↓）という謎の引っ越しを繰り返しまくってました。英語と電気を扱う技術科、社会科くらいしかできないです。美術とか体育とか音楽とかの成績はク○です。
+ifもforもできず、無能極まりないですがこうしてアプリを作れているということはAndroidStudioはやっぱすごいんやなぁって思います。（でもやっぱJavaの基本は覚えとかないとな...）"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView22"
+        android:layout_marginTop="15dp"
+        android:text="Q アプリがつまらない"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView26"
+        android:layout_marginTop="13dp"
+        android:text="A ほならね、自分が作ってみろって話でしょ。私はそう言いたい。こっちはみんなを楽しませるためにアプリを...作っているわけでして、やっぱり、前はちょっとシンプルなアプリだったのですが、いや...やっぱアプリやっぱ凝ったアプリがいいかなーと思ってまあアプリ作り始めたわけですけども。そんな、「アプリつまらない」とか言われたら、じゃあお前が作れって話でしょ、だと思いますけどね？ええ。結構ー、アプリ作るのは大変だと思いますよ。アプリのレイアウト、から考えなあかんし。「つまんない」と言うんだったら自分が作ってみろ！っていう話でしょ？私はそう言いたい。うん"
+        android:textSize="14sp" />
+
+</RelativeLayout>
+
+
+
